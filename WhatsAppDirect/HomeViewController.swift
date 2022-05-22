@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
         
         let phoneNo = phoneTextView.text ?? ""
         let message = (messageTextView.text ?? "").replacingOccurrences(of: " ", with: "%20")
-//        let message = (messageTextView.text ?? "")
+//      let message = (messageTextView.text ?? "")
 //            .addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
         
         
